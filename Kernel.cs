@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using Sys = Cosmos.System;
 using Hypatia.Commands;
@@ -12,6 +13,7 @@ namespace Hypatia
     {
         private CommandManager commandManager;
         private CosmosVFS vfs;
+        public static string file;
 
         public static GUI gui;
         protected override void BeforeRun()
@@ -32,7 +34,6 @@ namespace Hypatia
                 return;
             }
 
-            String shell = "[root@crackhouse-pc]>> ";
             String response;
             String input = Console.ReadLine();
             response = this.commandManager.processInput(input);

@@ -26,7 +26,7 @@ namespace Hypatia.Graphics
         public void tryProcessTabBarClick(Int32 mouseX, Int32 mouseY) {
 
             if (new Rectangle(mouseX, mouseY, 1, 1).IntersectsWith(new Rectangle(0, this.rows - 100, 100, 99)))
-                Console.Beep();
+                new Tab(0, 0);
 
         }
 

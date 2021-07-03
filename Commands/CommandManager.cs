@@ -15,6 +15,7 @@ namespace Hypatia.Commands
             this.commands.Add(new Filer("filer"));
             this.commands.Add(new LaunchGUI("launch"));
             this.commands.Add(new Clear("clear"));
+            this.commands.Add(new LaunchMIV("miv"));
         }
 
         public String processInput(String input)
