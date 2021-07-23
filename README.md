@@ -11,3 +11,5 @@ To compile Cosmos Devkit you will need:
 -Inno Quick Start Pack (Free) – Install with defaults, keep Preprocessor option checked(http://www.jrsoftware.org/isdl.php#qsp)
 -.NET Framework 4.7.1 Developer Pack
 After this clone this repo: https://github.com/CosmosOS/Cosmos and run install-VS2019.bat. Then clone the os repo and open the .sln file then just compile it in visual studio
+
+# This Work is protected under the Authoral Integrity License (AIL): https://github.com/heavyelement/ail/
